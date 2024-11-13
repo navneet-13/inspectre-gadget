@@ -31,9 +31,14 @@ def load_config(config_file):
             l.critical("Invalid config file!")
     else:
         l.info("No config provided, using default config")
-        config = {'controlled_registers': ['rax', 'rbx', 'rdi', 'rsi', 'rdx',
-                                           'rcx', 'r8', 'r9', 'r10', 'r11',
-                                           'r12', 'r13', 'r14', 'r15']}
+        # config = {'controlled_registers': ['rax', 'rbx', 'rdi', 'rsi', 'rdx',
+        #                                    'rcx', 'r8', 'r9', 'r10', 'r11',
+        #                                    'r12', 'r13', 'r14', 'r15']}
+
+        ## arm64 registers 
+        config = {'controlled_registers': ['x0', 'x19', 'rdi', 'rsi', 'x2',
+                                            'x1', 'x8', 'x9', 'x10', 'x11',
+                                            'x20', 'x21', 'x22', 'x23']}
 
     init_config(config)
 
