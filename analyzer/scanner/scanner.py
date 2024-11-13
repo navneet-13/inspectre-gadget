@@ -27,6 +27,8 @@ from ..shared.taintedFunctionPointer import *
 from ..shared.config import *
 from ..shared.astTransform import *
 from ..shared.utils import get_x86_registers
+from ..shared.utils import get_arm64_registers
+
 # autopep8: on
 
 l = get_logger("Scanner")
@@ -129,20 +131,32 @@ class Scanner:
         
         ## Port to arm64 
         state.regs.bp = claripy.BVS('x29', 64, annotations=(UncontrolledAnnotation('x29'),))
-        state.regs.sp = claripy.BVS('x30', 64, annotations=(UncontrolledAnnotation('x30'),))
+        state.regs.sp = claripy.BVS('sp', 64, annotations=(UncontrolledAnnotation('sp'),))
 
         # No direct mapping for x86 gs register ot arm64
         # state.regs.gs = claripy.BVS('x0', 64, annotations=(UncontrolledAnnotation('x0'),))
 
         # Initialize non-controlled registers.
-        for reg in get_x86_registers():
+        # for reg in get_x86_registers():
+        #     if reg not in global_config['controlled_registers']:
+        #         try:
+        #             length = getattr(state.regs, reg).length
+        #             bvs = claripy.BVS(reg, length, annotations=(UncontrolledAnnotation(reg),))
+        #             setattr(state.regs, reg, bvs)
+        #         except AttributeError:
+        #             l.critical(f"Unsupported arch! x86 register '{reg}' is not available")
+
+
+        for reg in get_arm64_registers():
             if reg not in global_config['controlled_registers']:
                 try:
                     length = getattr(state.regs, reg).length
                     bvs = claripy.BVS(reg, length, annotations=(UncontrolledAnnotation(reg),))
                     setattr(state.regs, reg, bvs)
                 except AttributeError:
-                    l.critical(f"Unsupported arch! x86 register '{reg}' is not available")
+                    l.critical(f"Unsupported arch! arm64 register '{reg}' is not available")
+
+
 
         # Initialize attacker-controlled registers.
         # They may partly overwrite uncontrolled registers (e.g., eax over rax)
@@ -619,7 +633,8 @@ class Scanner:
         state.inspect.b('expr', when=angr.BP_AFTER, action=self.expr_hook_after)
 
         self.initialize_regs_and_stack(state)
-        self.thunk_list = get_x86_indirect_thunks(proj)
+        # self.thunk_list = get_x86_indirect_thunks(proj)
+        self.thunk_list = get_arm64_indirect_thunks(proj)
 
         # Run the symbolic execution engine.
         state.globals['hist_0'] = state.addr

@@ -48,10 +48,64 @@ def get_x86_indirect_thunks(proj):
 
     return ind_calls
 
+def get_arm64_indirect_thunks(proj):
+    # ARM64 Register mapping from the x86 version
+    symbol_names = {
+        "__arm64_indirect_thunk_x0" : "x0",
+        "__arm64_indirect_thunk_x1" : "x1",
+        "__arm64_indirect_thunk_x2" : "x2",
+        "__arm64_indirect_thunk_x3" : "x3",
+        "__arm64_indirect_thunk_x4" : "x4",
+        "__arm64_indirect_thunk_x5" : "x5",
+        "__arm64_indirect_thunk_x6" : "x6",
+        "__arm64_indirect_thunk_x7" : "x7",
+        "__arm64_indirect_thunk_x8" : "x8",
+        "__arm64_indirect_thunk_x9" : "x9",
+        "__arm64_indirect_thunk_x10" : "x10",
+        "__arm64_indirect_thunk_x11" : "x11",
+        "__arm64_indirect_thunk_x12" : "x12",
+        "__arm64_indirect_thunk_x13" : "x13",
+        "__arm64_indirect_thunk_x14" : "x14",
+        "__arm64_indirect_thunk_x15" : "x15",
+        "__arm64_indirect_thunk_x16" : "x16",
+        "__arm64_indirect_thunk_x17" : "x17",
+        "__arm64_indirect_thunk_x18" : "x18",
+        "__arm64_indirect_thunk_x19" : "x19",
+        "__arm64_indirect_thunk_x20" : "x20",
+        "__arm64_indirect_thunk_x21" : "x21",
+        "__arm64_indirect_thunk_x22" : "x22",
+        "__arm64_indirect_thunk_x23" : "x23",
+        "__arm64_indirect_thunk_x24" : "x24",
+        "__arm64_indirect_thunk_x25" : "x25",
+        "__arm64_indirect_thunk_x26" : "x26",
+        "__arm64_indirect_thunk_x27" : "x27",
+        "__arm64_indirect_thunk_x28" : "x28",
+        "__arm64_indirect_thunk_x29" : "x29",
+        "__arm64_indirect_thunk_sp" : "sp",
+        "__arm64_indirect_thunk_lr" : "lr",  # Link register is used to store the return address
+    }
+    
+    ind_calls = {}
+
+    for symbol, reg in symbol_names.items():
+        addr = proj.loader.find_symbol(symbol)
+        if addr:
+            ind_calls[addr.rebased_addr] = reg
+
+    return ind_calls
+
 def get_x86_registers():
     return  ["rax", "rbx", "rcx", "rdx", "rsi",
              "rdi", "rbp", "rsp", "r8" , "r9",
              "r10", "r11", "r12", "r13", "r14", "r15"]
+
+def get_arm64_registers():
+    return  [
+        "x0", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9",
+        "x10", "x11", "x12", "x13", "x14", "x15", "x16", "x17", "x18",
+        "x19", "x20", "x21", "x22", "x23", "x24", "x25", "x26", "x27",
+        "x28", "sp", "lr", "x29"
+    ]
 
 
 def report_error(error: Exception, where="dunno", start_addr="dunno", error_type="GENERIC"):
