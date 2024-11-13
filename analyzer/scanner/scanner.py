@@ -122,9 +122,17 @@ class Scanner:
         """
         Mark stack locations and registers as attacker-controlled.
         """
-        state.regs.rbp = claripy.BVS('rbp', 64, annotations=(UncontrolledAnnotation('rbp'),))
-        state.regs.rsp = claripy.BVS('rsp', 64, annotations=(UncontrolledAnnotation('rsp'),))
-        state.regs.gs = claripy.BVS('gs', 64, annotations=(UncontrolledAnnotation('gs'),))
+        # state.regs.rbp = claripy.BVS('rbp', 64, annotations=(UncontrolledAnnotation('rbp'),))
+        # state.regs.rsp = claripy.BVS('rsp', 64, annotations=(UncontrolledAnnotation('rsp'),))
+        # state.regs.gs = claripy.BVS('gs', 64, annotations=(UncontrolledAnnotation('gs'),))
+        
+        
+        ## Port to arm64 
+        state.regs.bp = claripy.BVS('x29', 64, annotations=(UncontrolledAnnotation('x29'),))
+        state.regs.sp = claripy.BVS('x30', 64, annotations=(UncontrolledAnnotation('x30'),))
+
+        # No direct mapping for x86 gs register ot arm64
+        # state.regs.gs = claripy.BVS('x0', 64, annotations=(UncontrolledAnnotation('x0'),))
 
         # Initialize non-controlled registers.
         for reg in get_x86_registers():
@@ -155,8 +163,8 @@ class Scanner:
                     size = region['size']
                     assert (size in [1, 2, 4, 8])
 
-                    addr = state.regs.rsp + (offset)
-                    name = f"rsp_{offset}"
+                    addr = state.regs.sp + (offset)  ## changed for arm64
+                    name = f"sp_{offset}"
                     bvs = claripy.BVS(name, size * 8, annotations=(AttackerAnnotation(name),))
 
                     cur_store = memory.MemOp(pc=state.addr,
