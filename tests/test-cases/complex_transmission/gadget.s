@@ -1,33 +1,27 @@
-.intel_syntax noprefix
-
-# Complex transmission, in the sence that the transmission is not a default
-# add operation. But the transbase + transsecret are packed within
-# a more complex operaton; in this gadget a shift
-
 complex_transmission:
-   mov    r8, QWORD PTR [rdi] # load of secret
-   mov    r9, QWORD PTR [rsi] # load of transbase
-   add    r9, r8
-   shl    r9, 0x6             # after the add, we shift
-   mov    r10, QWORD PTR [r9] # transmission
+   ldr x8, [x0]                // Load QWORD from [rdi] (secret)
+   ldr x9, [x1]                // Load QWORD from [rsi] (transbase)
+   add x9, x8, x9              // Add r8 (secret) to r9 (transbase)
+   lsl x9, x9, #6              // Shift r9 left by 6
 
-   # Use one value for a complex transmission
-   mov    r8, QWORD PTR [rdi] # load of secret
-   mov    r9, QWORD PTR [rsi] # load of transbase
+   ldr x10, [x9]               // Load QWORD from address r9 (transmission)
 
-   mov    rax, 8
-   mul    r8
-   mov    r11, QWORD PTR [rax] # transmission
+   // Use one value for a complex transmission
+   ldr x8, [x0]                // Load QWORD from [rdi] (secret)
+   ldr x9, [x1]                // Load QWORD from [rsi] (transbase)
 
-   # Use two independent values for a complex transmission
-   mov    rax, r8
-   mul    r9
-   mov    r12, QWORD PTR [rax] # transmission
+   mov x0, #8                  // Set constant 8 in x0
+   mul x8, x8, x0              // Multiply r8 (secret) by 8 (mul is used here)
+   ldr x11, [x8]               // Load QWORD from address r8 (transmission)
 
-   # Use two dependent values for a complex transmission
-   mov    rax, r8
-   mul    rdi
-   mov    r13, QWORD PTR [rax] # transmission
+   // Use two independent values for a complex transmission
+   mov x0, x8                  // Copy r8 (secret) to x0
+   mul x9, x9, x0              // Multiply r9 (transbase) by r8 (independent multiplication)
+   ldr x12, [x9]               // Load QWORD from address r9 (transmission)
 
+   // Use two dependent values for a complex transmission
+   mov x0, x8                  // Copy r8 (secret) to x0
+   mul x10, x0, x0             // Multiply r8 (secret) by itself (dependent multiplication)
+   ldr x13, [x10]              // Load QWORD from address r8 (transmission)
 
-	jmp    0xdead
+   b 0xdead0                   // Jump to address 0xdead0

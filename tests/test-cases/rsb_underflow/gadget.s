@@ -1,8 +1,6 @@
-.intel_syntax noprefix
-
 rsp_underflow:
-   call dummy_call
-   ret # We should not count this as a TFP
+   bl     dummy_call           // Branch with link to dummy_call (calls the function)
+   ret                         // Return from rsp_underflow (We should not count this as a TFP)
 
 dummy_call:
-   ret
+   ret                         // Return from dummy_call (simple return)

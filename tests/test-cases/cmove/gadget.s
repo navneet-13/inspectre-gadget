@@ -1,9 +1,8 @@
-.intel_syntax noprefix
-
 cmove_sample:
-   mov     rdi, qword ptr [rdx+0x18] # [ATTACKER]#rdx > [SECRET]
-   test    rdi, rdi
-   cmove   rdi, rsi
-   mov     eax, dword ptr [rdi]      # TRANSMISSION either with secret OR attacker VALUE:
+    ldr     x0, [x1, #0x18]             // mov rdi, qword ptr [rdx + 0x18] (x1 is equivalent to rdx, x0 is equivalent to rdi)
+    tst     x0, x0                      // test rdi, rdi
+    cset    x0, eq                      // cmove rdi, rsi (set x0 to rsi if rdi == 0, x2 is equivalent to rsi)
 
-   jmp    0xdead
+    ldr     w0, [x0]                    // mov eax, dword ptr [rdi] (load 32-bit value from address pointed by rdi into w0)
+
+    b       0xdead0                     // jmp 0xdead0

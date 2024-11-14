@@ -1,42 +1,38 @@
-.intel_syntax noprefix
-
 disjoint_range:
-   mov  rax, QWORD PTR [rdi + 0x28]  # Load secret
-   mov  rsi, QWORD PTR [rsi + 0x30]  # Load secret
+   ldr x0, [x1, #0x28]              // Load secret (rdi + 0x28) into x0 (rax)
+   ldr x1, [x2, #0x30]              // Load secret (rsi + 0x30) into x1 (rsi)
 
-   # JE
-   cmp  rax, 0xf
-   je  exit
-   mov  rcx, QWORD PTR [rax]  # Transmission 0
-                              # transmitted_secret_range_w_branches: (0x11,0xf)
+   // JE (if rax == 0xf) -> exit
+   cmp x0, #0xf                     // Compare rax (x0) with 0xf
+   beq exit                         // If equal (zero flag), branch to exit
 
-   mov  r8, QWORD PTR [rax + 0xffffffff81000000]  # Transmission 1
-                              # transmission_range_w_branches: (0xffffffff8100000f,0xffffffff8100000f)
-   cmp rsi, 0xff
-   je exit
+   ldr x2, [x0]                     // Load value from [rax] into rcx (x2)
 
-   mov  r9, QWORD PTR [rsi + rax] # Transmission 2 + 3
-                                  # Both base and transmitted secret are
-                                  # disjoint ranges, both transmissions
-                                  # should be exploitable both w/wo branches
-   # JG / JA
-   cmp rax, 0xf
-   jg  exit
-   mov  rdx, QWORD PTR [rax]  # Transmission 4
-                              # transmitted_secret_range_w_branches: (-INT_MAX,0xf)'
+   movz x10, 0xffff, lsl #48
+   movk x10, 0xffff, lsl #32
+   movk x10, 0x8100, lsl #16
+   movk x10, 0x0
+   ldr x3, [x0, x10] // Load value from [rax + 0xffffffff81000000] into r8 (x3)
+   cmp x1, #0xff                    // Compare rsi (x1) with 0xff
+   beq exit                         // If equal (zero flag), branch to exit
 
-   cmp rsi, 0xffff
-   ja exit
-   mov  rdx, QWORD PTR [rsi]  # Transmission 5
-                              # Since we have both a disjoint (je) range and
-                              # two separate ranges (ja), we cannnot do it exact
-                              # transmitted_secret_range_w_branches: (0,0xffff)'
-                              # (exact would be: (0,0xfe) + (0x100, 0xffff))
+   ldr x4, [x1, x0]                 // Load value from [rsi + rax] into r9 (x4)
 
-   mov  rbx, QWORD PTR [rsi + 0xffffffff81000000]  # Transmission 6
-                              # exploitable_w_branches: True
+   // JG (if rax > 0xf) -> exit
+   cmp x0, #0xf                     // Compare rax (x0) with 0xf
+   bgt exit                         // If greater, branch to exit
 
-   jmp    exit
+   ldr x5, [x0]                     // Load value from [rax] into rdx (x5)
+
+   mov x11, 0xffff
+   cmp x1, x11                  // Compare rsi (x1) with 0xffff
+   bgt exit                         // If greater, branch to exit
+
+   ldr x6, [x1]                     // Load value from [rsi] into rdx (x6)
+
+   ldr x7, [x1, x10] // Load value from [rsi + 0xffffffff81000000] into rbx (x7)
+
+   b exit                           // Branch to exit
 
 exit:
-   jmp 0xdead
+   b 0xdead0                         // Jump to the exit address 0xdead0

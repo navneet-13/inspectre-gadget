@@ -39,7 +39,7 @@ rm -f tfp.csv
 # ------------------------------------------------------------------------------
 # Run InSpectre Scanner
 
-objdump --adjust-vma=0x4000000 -d -Mintel gadget > ${OUT_FOLDER}/out.txt
+objdump --adjust-vma=0x4000000 -d  gadget > ${OUT_FOLDER}/out.txt
 
 echo ""  >> ${OUT_FOLDER}/out.txt
 echo "== SCANNER ==" >> ${OUT_FOLDER}/out.txt

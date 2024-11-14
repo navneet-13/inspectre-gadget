@@ -1,20 +1,26 @@
-.intel_syntax noprefix
-
 constraints_isolater:
-   mov    r8, QWORD PTR [rdi]      # This forces rdi to be concretized
-   movzx  r9, WORD PTR [rdi]       # load of secet
-                                   # -> Range should be 0x0,0xffffffffffffffff, 0x1)
-   mov    r10, QWORD PTR [r9 + 0xffffffff81000000] # transmission 0
+   ldr     x8, [x1]                // Load 8 bytes from [x1] (equivalent to rdi) into x8
+   ldrh    w9, [x1]                // Load halfword from [x1] into w9 (equivalent to movzx r9, WORD PTR [rdi])
+   movz    x2, 0xffff, lsl #48
+   movk    x2, 0xffff, lsl #32
+   movk    x2, 0x8100, lsl #16
+   movk    x2, 0x0
+   add     x10, x9, x2   // Add offset 0x81000000 to x9 and store the result in x10
+   ldr     x10, [x10]              // Load 8 bytes from address in x10 into x10 (transmission 0)
 
-   movzx  rax, WORD PTR [rdi + 4]
-   mov    r11, QWORD PTR [rax + 0xffffffff81000000] # transmission 1
+   ldrh    w0, [x1, #4]            // Load halfword from [x1 + 4] into w0 (equivalent to movzx rax, WORD PTR [rdi + 4])
+   add     x11, x0, x2    // Add offset 0x81000000 to x0 and store the result in x11
+   ldr     x11, [x11]              // Load 8 bytes from address in x11 into x11 (transmission 1)
 
-   mov    ebx, DWORD PTR [rdi + 4]
-   mov    r12, QWORD PTR [rbx + 0xffffffff81000000] # transmission 2
+   ldr     w0, [x1, #4]            // Load 4 bytes from [x1 + 4] into w0 (equivalent to mov ebx, DWORD PTR [rdi + 4])
+   add     x12, x0, x2    // Add offset 0x81000000 to x0 and store the result in x12
+   ldr     x12, [x12]              // Load 8 bytes from address in x12 into x12 (transmission 2)
 
-   mov    rcx, QWORD PTR [rdi + 4]
-   mov    r13, QWORD PTR [rcx + 0xffffffff81000000] # transmission 3
+   ldr     w0, [x1, #4]            // Load 4 bytes from [x1 + 4] into w0 (equivalent to mov rcx, QWORD PTR [rdi + 4])
+   add     x13, x0, x2    // Add offset 0x81000000 to x0 and store the result in x13
+   ldr     x13, [x13]              // Load 8 bytes from address in x13 into x13 (transmission 3)
 
-   mov    r14, QWORD PTR [r9 + r12]  # transmission 4, has aliasing
+   add     x14, x9, x12            // Add x9 (secret) and x12 (transmission 2) to calculate the address
+   ldr     x14, [x14]              // Load the value from the address in x14 (transmission 4)
 
-	jmp    0xdead
+   b       0xdead0                 // Jump to address 0xdead0 (equivalent to jmp 0xdead0)
