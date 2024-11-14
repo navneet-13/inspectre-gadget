@@ -4,3 +4,5 @@ code/range/distribution/smt_samples
 results
 .venv/
 venv/
+out/
+fail.txt
