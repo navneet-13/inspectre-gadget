@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the parameters
-ADDRESS_LIST="~/kernel_addresses_list.csv"  # Path to the kernel addresses file
+ADDRESS_LIST="/home/navneet/kernel_addresses_list.csv"  # Path to the kernel addresses file
 CONFIG_FILE="config_all.yaml"  # Configuration file
 OUTPUT_DIR="out"  # Output directory for files
 BATCH_SIZE=$1  # Batch size passed as the first argument
@@ -39,8 +39,8 @@ process_batch() {
     --address-list "$batch_output_file" \
     --config "$CONFIG_FILE" \
     --output "$OUTPUT_DIR/gadgets_${batch_start}_${batch_end}.csv" \
-    --tfp-output "$$CUR_DIR/output/tfp_${batch_start}_${batch_end}.csv" \
-    --asm "$OUTPUT_DIR/asm_${batch_start}_${batch_end}"
+    --tfp-output "$CUR_DIR/output/tfp_${batch_start}_${batch_end}.csv" \
+    --asm "$OUTPUT_DIR/asm_${batch_start}_${batch_end}" > "$OUTPUT_DIR/out_log_${batch_start}_${batch_end}.txt" 
 }
 
 # Split the addresses into batches
