@@ -5,8 +5,12 @@ ADDRESS_LIST="/home/navneet/kernel_addresses_list.csv"  # Path to the kernel add
 CONFIG_FILE="config_all.yaml"  # Configuration file
 OUTPUT_DIR="out"  # Output directory for files
 BATCH_SIZE=$1  # Batch size passed as the first argument
-CORES=$(nproc)  # Get the number of available cores
+
+CORES=$(( $(nproc) - 5 ))  # Subtract 10 from the total number of cores
+CORES=$(( CORES > 0 ? CORES : 1 ))  # Ensure at least 1 core is used
+
 CUR_DIR=$(pwd)  # Temporary directory for storing batches
+BATCH_START_NUMBER=${2:-1}
 
 # Check if batch size is provided
 if [ -z "$BATCH_SIZE" ]; then
@@ -30,17 +34,20 @@ process_batch() {
   local batch_start=$1
   local batch_end=$2
   local batch_output_file="$OUTPUT_DIR/batch_addresses_${batch_start}_${batch_end}.csv"
+  local batch_number=$(((batch_start - 1 )/50 + 1))
+  local batch_number_padded=$(printf "%06d" $batch_number)
+  echo "batch_number_padded: $batch_number_padded"
 
   # Extract the batch of addresses from the main address list
   sed -n "${batch_start},${batch_end}p" "$ADDRESS_LIST" > "$batch_output_file"
 
   # Run the inspectre command on the current batch
-  ./inspectre analyze /tmp/vmlinux \
+  ./inspectre analyze /home/navneet/vmlinux \
     --address-list "$batch_output_file" \
     --config "$CONFIG_FILE" \
-    --output "$OUTPUT_DIR/gadgets_${batch_start}_${batch_end}.csv" \
-    --tfp-output "$CUR_DIR/output/tfp_${batch_start}_${batch_end}.csv" \
-    --asm "$OUTPUT_DIR/asm_${batch_start}_${batch_end}" > "$OUTPUT_DIR/out_log_${batch_start}_${batch_end}.txt" 
+    --output "$OUTPUT_DIR/gadgets_${batch_number_padded}.csv" \
+    --tfp-output "$CUR_DIR/output/tfp_${batch_number_padded}.csv" \
+    --asm "$OUTPUT_DIR/asm_${batch_number_padded}" > "$OUTPUT_DIR/out_log_${batch_number_padded}.txt" 
 }
 
 # Split the addresses into batches
@@ -48,8 +55,8 @@ total_addresses=$(wc -l < "$ADDRESS_LIST")  # Total number of addresses in the f
 addresses_per_batch=$(( (total_addresses + BATCH_SIZE - 1) / BATCH_SIZE ))  # Calculate the number of batches
 
 # Start processing the batches in parallel, dynamically assign work to available cores
-batch_start=1
-batch_end=$BATCH_SIZE
+batch_start=$(((BATCH_START_NUMBER - 1) * 50 + 1))
+batch_end=$((batch_start + BATCH_SIZE - 1))
 
 # Function to dynamically assign batches
 assign_batches() {
