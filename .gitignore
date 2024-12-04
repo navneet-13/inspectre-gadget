@@ -8,3 +8,4 @@ out/
 output/
 fail.txt
 batch_log.txt
+*.log
