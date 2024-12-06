@@ -58,4 +58,6 @@ MaxBB: 5
 DistributeShifts: True
 
 # Also look for tainted function pointers (i.e. dispatch gadgets).
-TaintedFunctionPointers: True
+# Oryon: turning this off because we're interested in finding
+# disclosure gadgets, so this should save time significantly.
+TaintedFunctionPointers: False

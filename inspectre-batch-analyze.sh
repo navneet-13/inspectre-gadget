@@ -6,7 +6,7 @@ CONFIG_FILE="config_all.yaml"                          # Configuration file
 OUTPUT_DIR="out"                                       # Output directory for files
 BATCH_SIZE=$1                                          # Batch size passed as the first argument
 MEM_THRESHOLD=80
-CORES=$(($(nproc) - 5))          # Subtract 10 from the total number of cores
+CORES=$(($(nproc) - 5))          # Subtract 5 from the total number of cores
 CORES=$((CORES > 0 ? CORES : 1)) # Ensure at least 1 core is used
 
 current_date=$(date +'%Y-%m-%d')
