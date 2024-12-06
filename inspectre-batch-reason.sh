@@ -5,8 +5,8 @@
 OUT_DIR="out"
 LOG_FILE="inspectre_reasoner_jobs.log"
 
-NUM_CORES=$(( $(nproc) - 5 ))  # Subtract 5 from the total number of cores
-NUM_CORES=$(( NUM_CORES > 0 ? NUM_CORES : 1 ))  # Ensure at least 1 core is used
+NUM_CORES=$(($(nproc) - 5))                  # Subtract 5 from the total number of cores
+NUM_CORES=$((NUM_CORES > 0 ? NUM_CORES : 1)) # Ensure at least 1 core is used
 
 # Check if the required script exists
 if [[ ! -x "./inspectre" ]]; then
@@ -25,12 +25,12 @@ active_jobs() {
     jobs -rp | wc -l
 }
 
-echo "Started processing ......" > "$LOG_FILE"
+echo "Started processing ......" >"$LOG_FILE"
 
 # Iterate over all CSV files in the out directory starting with 'gadgets'
 for file in "$OUT_DIR"/gadgets*.csv; do
 
-     if [[ "$file" == *reasoned.csv ]]; then
+    if [[ "$file" == *reasoned.csv ]]; then
         continue
     fi
 
@@ -41,13 +41,13 @@ for file in "$OUT_DIR"/gadgets*.csv; do
 
         # Wait until a core is free
         while [ "$(jobs -r | wc -l)" -ge "$NUM_CORES" ]; do
-        sleep 0.1  # Wait for a free core
+            sleep 0.1 # Wait for a free core
         done
 
         # Run the inspectre script in the background and save its output to a log file
         echo "Starting $file -> $output_file (Log: $log_file)" | tee -a "$LOG_FILE"
-	    (
-            ./inspectre reason "$file" "$output_file" > "$log_file"  2>&1 
+        (
+            ./inspectre reason "$file" "$output_file" >"$log_file" 2>&1
             if [[ $? -eq 0 ]]; then
                 echo "Completed: $file -> $output_file (Log: $log_file)" | tee -a "$LOG_FILE"
             else
@@ -56,7 +56,7 @@ for file in "$OUT_DIR"/gadgets*.csv; do
         ) &
 
         # Capture process ID for tracking
-        echo "Started processing $file with PID $!" >> "$LOG_FILE"
+        echo "Started processing $file with PID $!" >>"$LOG_FILE"
     fi
 done
 
@@ -64,4 +64,3 @@ done
 wait
 
 echo "All tasks completed."
-

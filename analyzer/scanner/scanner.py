@@ -10,6 +10,7 @@ The Scanner is responsible of:
 
 import angr
 import claripy
+import time
 
 from . import memory
 from .annotations import *
@@ -118,6 +119,8 @@ class Scanner:
         self.bbs = {}
         self.cur_state = None
 
+        self.start_time = None
+        self.timeout = global_config["GadgetTimeout"]
 
     def initialize_regs_and_stack(self, state: angr.sim_state.SimState):
         """
@@ -616,7 +619,18 @@ class Scanner:
         # Run the symbolic execution engine.
         state.globals['hist_0'] = state.addr
         self.states = [state]
+
+        if self.start_time is None:
+            self.start_time = time.time()
+
         while len(self.states) > 0:
+            # Check for timeout.
+            if time.time() - self.start_time > self.timeout:
+                l.error("=============== TIMEOUT ===============")
+                l.error(f"Timeout at {hex(self.cur_state.addr)}!")
+                report_timeout(hex(self.cur_state.addr), hex(start_address))
+                break
+
             # Pick the next state.
             self.cur_state = self.states.pop()
             l.info(f"Visiting {hex(self.cur_state.addr)}")

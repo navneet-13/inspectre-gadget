@@ -21,4 +21,3 @@ if [[ $? -eq 0 ]]; then
 else
     echo "Failed to kill some processes. You may need to check manually."
 fi
-
