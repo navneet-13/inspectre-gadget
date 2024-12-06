@@ -65,6 +65,12 @@ def report_unsupported(error: Exception, where="dunno", start_addr="dunno", erro
     o.write("\n")
     o.close()
 
+def report_timeout(where="dunno", start_addr="dunno"):
+    o = open("timeout.txt", "a+")
+    o.write(f"---------------- [ TIMEOUT ] ----------------\n")
+    o.write(f"instruction addr: {where}     started at: {start_addr}\n")
+    o.close()
+
 def get_outcome(cond, source, target):
     if cond.concrete:
         if cond.is_true():

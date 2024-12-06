@@ -50,6 +50,8 @@ STLForwarding: True
 
 # Timeout of the Z3 solver when evaluating constraints.
 Z3Timeout: 10000 # ms = 10s
+# Timeout per gadget.
+GadgetTimeout: 60 # 1 minute
 
 # Maximum number of basic blocks to explore for each entrypoint.
 MaxBB: 5
