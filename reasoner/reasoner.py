@@ -618,27 +618,27 @@ def run(in_csv, out_csv):
     print(f"Found {len(df[df['exploitable_w_branches'] == True])} exploitable gadgets!")
 
 
-    # --------------------------------------------------------------------------
-    # Perform the checks for the SLAM attack
-    print("[-] Performing exploitability analysis assuming the SLAM covert channel...")
-    with_branches = False
+    # # --------------------------------------------------------------------------
+    # # Perform the checks for the SLAM attack
+    # print("[-] Performing exploitability analysis assuming the SLAM covert channel...")
+    # with_branches = False
 
-    for b in slam_basic_checks:
-        if b.__name__ not in df.columns:
-            df[b.__name__] = df.apply(b, axis=1)
+    # for b in slam_basic_checks:
+    #     if b.__name__ not in df.columns:
+    #         df[b.__name__] = df.apply(b, axis=1)
 
-    for c in slam_advanced_checks:
+    # for c in slam_advanced_checks:
 
-        if c['problem'].__name__  not in df.columns:
-            df[c['problem'].__name__] = df.apply(c['problem'], axis=1)
+    #     if c['problem'].__name__  not in df.columns:
+    #         df[c['problem'].__name__] = df.apply(c['problem'], axis=1)
 
-        if c['solution'].__name__  not in df.columns:
-            df[c['solution'].__name__] = df.apply(c['solution'], axis=1)
+    #     if c['solution'].__name__  not in df.columns:
+    #         df[c['solution'].__name__] = df.apply(c['solution'], axis=1)
 
-    df[['exploitable_w_slam', 'required_solutions_w_slam',
-        'fail_reasons_w_slam']] = df.apply(slam_is_exploitable, axis=1, result_type="expand")
+    # df[['exploitable_w_slam', 'required_solutions_w_slam',
+    #     'fail_reasons_w_slam']] = df.apply(slam_is_exploitable, axis=1, result_type="expand")
 
-    print(f"Found {len(df[df['exploitable_w_slam'] == True])} exploitable gadgets!")
+    # print(f"Found {len(df[df['exploitable_w_slam'] == True])} exploitable gadgets!")
 
     # Save to new file.
     print(f"[-] Saving to {out_csv}")

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the parameters
-ADDRESS_LIST="/home/navneet/kernel_addresses_list.csv" # Path to the kernel addresses file
+ADDRESS_LIST="/home/nosajmik/Desktop/inspectre-gadget/targets/bash.csv" # Path to the kernel addresses file
 CONFIG_FILE="config_all.yaml"                          # Configuration file
 OUTPUT_DIR="out"                                       # Output directory for files
 BATCH_SIZE=$1                                          # Batch size passed as the first argument
@@ -63,12 +63,13 @@ process_batch() {
   sed -n "${batch_start},${batch_end}p" "$ADDRESS_LIST" >"$batch_output_file"
 
   # Run the inspectre command on the current batch
-  timeout "$timeout_duration" ./inspectre analyze /home/navneet/vmlinux \
+  timeout "$timeout_duration" ./inspectre analyze /home/nosajmik/Desktop/inspectre-gadget/targets/bash \
     --address-list "$batch_output_file" \
     --config "$CONFIG_FILE" \
     --output "$OUTPUT_DIR/gadgets_${batch_number_padded}.csv" \
     --tfp-output "$CUR_DIR/output/tfp_${batch_number_padded}.csv" \
-    --asm "$OUTPUT_DIR/asm_${batch_number_padded}" >"$OUTPUT_DIR/out_log_${batch_number_padded}.txt"
+    --asm "$OUTPUT_DIR/asm_${batch_number_padded}" >"$OUTPUT_DIR/out_log_${batch_number_padded}.txt" \
+    --base-address 0
 
   if [ $? -eq 124 ]; then
     echo "Processing for batch ${batch_number_padded} timed out and was killed." | tee -a "$TIMEOUT_LOG"
