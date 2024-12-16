@@ -201,6 +201,9 @@ def contains_secret(ast: claripy.BV):
     for anno in get_annotations(ast):
         if isinstance(anno, SecretAnnotation) or isinstance(anno, TransmissionAnnotation):
             return True
+        # nosajmik hack: treat dataflow from x0 as a secret, too
+        elif str(anno) == "Attacker@x0":
+            return True
 
     return False
 

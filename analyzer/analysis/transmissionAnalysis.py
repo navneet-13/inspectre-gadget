@@ -172,6 +172,10 @@ def get_transmissions(potential_t: TransmissionExpr) -> list[Transmission]:
                 for anno in get_annotations(var):
                     if isinstance(anno, SecretAnnotation) or isinstance(anno, TransmissionAnnotation):
                         secrets.append((var, anno.read_address_ast))
+                    # nosajmik hack: if there is dataflow from x0, it won't be annotated
+                    # as a secret, but it should be treated as such
+                    if str(anno) == "Attacker@x0":
+                        secrets.append((var, var))
 
             # If there is at least one secret in this member...
             for secret_sym, secret_addr in secrets:
@@ -188,7 +192,10 @@ def get_transmissions(potential_t: TransmissionExpr) -> list[Transmission]:
                 # Save which secret is is being transmitted.
                 t.transmitted_secret.expr = member
                 t.secret_val.expr = secret_sym
-                t.secret_load_pc = get_load_annotation(secret_sym).address
+                # nosajmik hack: in the case of Attacker@x0, there is
+                # no load annotation, so this is needed to prevent crashing
+                if get_load_annotation(secret_sym) is not None:
+                    t.secret_load_pc = get_load_annotation(secret_sym).address
                 t.secret_address.expr = secret_addr
 
                 # Check the rest of the expression
