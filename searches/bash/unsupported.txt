@@ -1,0 +1,20 @@
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xd9018     started at: 0xd8fe0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xd9104     started at: 0xd90a0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xd9078     started at: 0xd9040
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xd9520     started at: 0xd94e4
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xd9580     started at: 0xd9544
+Operation not implemented
+

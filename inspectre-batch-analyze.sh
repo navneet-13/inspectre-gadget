@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the parameters
-ADDRESS_LIST="/home/nosajmik/Desktop/inspectre-gadget/targets/bash.csv" # Path to the kernel addresses file
+ADDRESS_LIST="/home/nosajmik/Desktop/inspectre-gadget/targets/libcrypto.so.3.csv" # Path to the kernel addresses file
 CONFIG_FILE="config_all.yaml"                          # Configuration file
 OUTPUT_DIR="out"                                       # Output directory for files
 BATCH_SIZE=$1                                          # Batch size passed as the first argument
@@ -63,7 +63,7 @@ process_batch() {
   sed -n "${batch_start},${batch_end}p" "$ADDRESS_LIST" >"$batch_output_file"
 
   # Run the inspectre command on the current batch
-  timeout "$timeout_duration" ./inspectre analyze /home/nosajmik/Desktop/inspectre-gadget/targets/bash \
+  timeout "$timeout_duration" ./inspectre analyze /home/nosajmik/Desktop/inspectre-gadget/targets/libcrypto.so.3 \
     --address-list "$batch_output_file" \
     --config "$CONFIG_FILE" \
     --output "$OUTPUT_DIR/gadgets_${batch_number_padded}.csv" \
