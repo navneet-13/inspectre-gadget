@@ -1,25 +1,9 @@
 ---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
-instruction addr: 0xd7b04     started at: 0xd7b00
-IR decoding error at 0xd7b04. You can hook this instruction with a python replacement using project.hook(0xd7b04, your_function, length=length_of_instruction).
-
----------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
-instruction addr: 0x53ba4     started at: 0x53ba0
-IR decoding error at 0x53ba4. You can hook this instruction with a python replacement using project.hook(0x53ba4, your_function, length=length_of_instruction).
-
----------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
-instruction addr: 0x5d804     started at: 0x5d800
-IR decoding error at 0x5d804. You can hook this instruction with a python replacement using project.hook(0x5d804, your_function, length=length_of_instruction).
-
----------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
-instruction addr: 0x5f324     started at: 0x5f320
-IR decoding error at 0x5f324. You can hook this instruction with a python replacement using project.hook(0x5f324, your_function, length=length_of_instruction).
-
----------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
-instruction addr: 0xd9104     started at: 0xd90a0
+instruction addr: 0xd9018     started at: 0xd8fe0
 Operation not implemented
 
 ---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
-instruction addr: 0xd9018     started at: 0xd8fe0
+instruction addr: 0xd9104     started at: 0xd90a0
 Operation not implemented
 
 ---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
