@@ -1,0 +1,28 @@
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xc94dc     started at: 0x4e8e4
+IR decoding error at 0xc94dc. You can hook this instruction with a python replacement using project.hook(0xc94dc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xc94dc     started at: 0x3bc2c
+IR decoding error at 0xc94dc. You can hook this instruction with a python replacement using project.hook(0xc94dc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xc94dc     started at: 0x41830
+IR decoding error at 0xc94dc. You can hook this instruction with a python replacement using project.hook(0xc94dc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xc94dc     started at: 0x4e980
+IR decoding error at 0xc94dc. You can hook this instruction with a python replacement using project.hook(0xc94dc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xc94dc     started at: 0x47984
+IR decoding error at 0xc94dc. You can hook this instruction with a python replacement using project.hook(0xc94dc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xc94dc     started at: 0x47dc0
+IR decoding error at 0xc94dc. You can hook this instruction with a python replacement using project.hook(0xc94dc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xc94dc     started at: 0x4dc20
+IR decoding error at 0xc94dc. You can hook this instruction with a python replacement using project.hook(0xc94dc, your_function, length=length_of_instruction).
+
