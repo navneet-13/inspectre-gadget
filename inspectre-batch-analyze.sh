@@ -63,7 +63,7 @@ process_batch() {
   sed -n "${batch_start},${batch_end}p" "$ADDRESS_LIST" >"$batch_output_file"
 
   # Run the inspectre command on the current batch
-  timeout "$timeout_duration" ./inspectre analyze /home/nosajmik/Desktop/inspectre-gadget/targets/libzstd.so.1.5.6 \
+  timeout "$timeout_duration" ./inspectre analyze /home/nosajmik/Desktop/inspectre-gadget/targets/libz.so.1 \
     --address-list "$batch_output_file" \
     --config "$CONFIG_FILE" \
     --output "$OUTPUT_DIR/gadgets_${batch_number_padded}.csv" \
