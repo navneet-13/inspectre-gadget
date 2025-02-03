@@ -1,0 +1,8 @@
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x507d4     started at: 0x50970
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x507d4     started at: 0x50970
+Operation not implemented
+
