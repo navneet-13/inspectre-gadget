@@ -1,0 +1,1888 @@
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xfb700
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xfb6e0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x124ce0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x6ee60
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x44f20
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x8c340
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0xf9d80
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x13fa60
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x133708
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x8cb60
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x51820
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xfb5a0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0xbeb80
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x8cb60
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144dec     started at: 0x8ada0
+IR decoding error at 0x144dec. You can hook this instruction with a python replacement using project.hook(0x144dec, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x51820
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x129060
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x995a0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x121f80
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11ebe0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9dee0     started at: 0x999a0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x12c5d8     started at: 0x12c5a0
+no calculate function identified for Iop_NarrowUn64to32x2
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x129040
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1288c0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x128d20
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x4b720
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xbda40
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x3a180
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x9b9c0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x12094c
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x71820
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x9cfe0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x116ea0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bdc     started at: 0xf1c20
+IR decoding error at 0x144bdc. You can hook this instruction with a python replacement using project.hook(0x144bdc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x976b0     started at: 0x97640
+IR decoding error at 0x976b0. You can hook this instruction with a python replacement using project.hook(0x976b0, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9dee0     started at: 0xe50c0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x99380
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xbd920
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x4c580
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x99028
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ddd8     started at: 0x99940
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x122040
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1240e0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xfce60
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x13fa40
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x80b3c     started at: 0x80b20
+no calculate function identified for Iop_SliceV128
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x80b3c     started at: 0x80b20
+no calculate function identified for Iop_SliceV128
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x124ca0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144e4c     started at: 0x83de0
+IR decoding error at 0x144e4c. You can hook this instruction with a python replacement using project.hook(0x144e4c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xfd1e0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x8c080
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x8c080
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bdc     started at: 0x86640
+IR decoding error at 0x144bdc. You can hook this instruction with a python replacement using project.hook(0x144bdc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x98a20
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x123b68
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xd76c0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x3cb6c     started at: 0x3cb60
+no calculate function identified for Iop_Cnt8x16
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x9de80
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x9cc40
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x1299a0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x9de80
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x9cc40
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x993e0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xebd40
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x13dac0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144e7c     started at: 0x4ba40
+IR decoding error at 0x144e7c. You can hook this instruction with a python replacement using project.hook(0x144e7c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x124ec0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144dec     started at: 0x83260
+IR decoding error at 0x144dec. You can hook this instruction with a python replacement using project.hook(0x144dec, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x8c1e0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x120f60
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x13db60
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x40220
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xb1a00
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1281e0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x3cacc     started at: 0x3cac0
+no calculate function identified for Iop_Cnt8x16
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1234c0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x1177a0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11fc60
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144e4c     started at: 0x8e220
+IR decoding error at 0x144e4c. You can hook this instruction with a python replacement using project.hook(0x144e4c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x9784c
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ddd8     started at: 0x9ddc0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x13f9e0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x821a0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x8c340
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe8ea0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x1177a0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x4b7c0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ddd8     started at: 0x12466c
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x99d60
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x112320
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x45660
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bdc     started at: 0x86640
+IR decoding error at 0x144bdc. You can hook this instruction with a python replacement using project.hook(0x144bdc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe62c0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x821a0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x1177a0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x134180
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x3cbb0     started at: 0x3cba0
+no calculate function identified for Iop_Cnt8x16
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x13ea40
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe8f60
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xc2940
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11f9e0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144e4c     started at: 0x8e220
+IR decoding error at 0x144e4c. You can hook this instruction with a python replacement using project.hook(0x144e4c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bdc     started at: 0x86640
+IR decoding error at 0x144bdc. You can hook this instruction with a python replacement using project.hook(0x144bdc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x1177a0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x3b700
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ddd8     started at: 0xc2940
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x137ac0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xd69e8
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x128200
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9cb14     started at: 0x9cb00
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xebde8
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ddd8     started at: 0x9dd40
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x48c8c
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x48c8c
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ddd8     started at: 0x9dce0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x13d7e0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x144860
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe832c
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bdc     started at: 0x85a00
+IR decoding error at 0x144bdc. You can hook this instruction with a python replacement using project.hook(0x144bdc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x42980
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x122200
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x123300
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x973c8
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xff5c0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x98ea0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bdc     started at: 0x85a00
+IR decoding error at 0x144bdc. You can hook this instruction with a python replacement using project.hook(0x144bdc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x965e8     started at: 0x964c4
+IR decoding error at 0x965e8. You can hook this instruction with a python replacement using project.hook(0x965e8, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x124cc0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x78ff0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x128d00
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x3b6e0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bdc     started at: 0x86640
+IR decoding error at 0x144bdc. You can hook this instruction with a python replacement using project.hook(0x144bdc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe8f00
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x3b808
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x1159c0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x9d1a0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x48c8c
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x48c8c
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xd74e0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x3a340
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x7f6e0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x9d800
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1124cc
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x78ce8
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x88d40
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0xbefe0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x78ce8
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x9ed60
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x13d740
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x42820
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x39f00
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x9ba80
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x113d60
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x121ea0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe1960
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x3ad00
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144f9c     started at: 0x82800
+IR decoding error at 0x144f9c. You can hook this instruction with a python replacement using project.hook(0x144f9c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x3cbec     started at: 0x3cbe0
+no calculate function identified for Iop_Cnt8x16
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x3cc6c     started at: 0x3cc60
+no calculate function identified for Iop_Cnt8x16
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe8ea0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ddd8     started at: 0x133dc0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xb1a20
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x99540
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144f9c     started at: 0x82800
+IR decoding error at 0x144f9c. You can hook this instruction with a python replacement using project.hook(0x144f9c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x114c40
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x116b40
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x115440
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x120280
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xd75a0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x7f700
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x51480
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x115ba0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xd7b00
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe8ec0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144cfc     started at: 0x8d8b0
+IR decoding error at 0x144cfc. You can hook this instruction with a python replacement using project.hook(0x144cfc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11f4a0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x86220
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144cfc     started at: 0x8d8b0
+IR decoding error at 0x144cfc. You can hook this instruction with a python replacement using project.hook(0x144cfc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xf3c20
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x3ac00
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x42820
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x13d864
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x120700
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x7f390
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144e7c     started at: 0x112488
+IR decoding error at 0x144e7c. You can hook this instruction with a python replacement using project.hook(0x144e7c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x88d0c
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x3b8cc
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xc4ecc
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x79020
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x3b970
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x42820
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x127dc0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ddd8     started at: 0x9dd40
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x7aac0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x97d20
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x9cdc0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x13d900
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ddd8     started at: 0xa44a0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x976c0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ad94     started at: 0x9ad80
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x88d0c
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x99140
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x142e00
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ddd8     started at: 0x117aa0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x122560
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x123930
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x9b960
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x42960
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xb1920
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bdc     started at: 0x866e0
+IR decoding error at 0x144bdc. You can hook this instruction with a python replacement using project.hook(0x144bdc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x7e840
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x9dfe0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x78ae0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1223a0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x9ed60
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11f220
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x45680
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x42820
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11f2e0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x9d8a0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bdc     started at: 0x866e0
+IR decoding error at 0x144bdc. You can hook this instruction with a python replacement using project.hook(0x144bdc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144d8c     started at: 0x8a840
+IR decoding error at 0x144d8c. You can hook this instruction with a python replacement using project.hook(0x144d8c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11cac0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x83360
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe11c0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1251b0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x142cc0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x9cdc0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe95ec
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144dec     started at: 0x8e140
+IR decoding error at 0x144dec. You can hook this instruction with a python replacement using project.hook(0x144dec, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xd67e8
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x990c0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x44f20
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xd7780
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144dec     started at: 0x8e140
+IR decoding error at 0x144dec. You can hook this instruction with a python replacement using project.hook(0x144dec, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xbda40
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ddd8     started at: 0x9aee0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x1368a0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x133968
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x2c270
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x126480
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144e4c     started at: 0x8e280
+IR decoding error at 0x144e4c. You can hook this instruction with a python replacement using project.hook(0x144e4c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x127da0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11f900
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1281c0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144e7c     started at: 0x4ba40
+IR decoding error at 0x144e7c. You can hook this instruction with a python replacement using project.hook(0x144e7c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144e4c     started at: 0x8e280
+IR decoding error at 0x144e4c. You can hook this instruction with a python replacement using project.hook(0x144e4c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x82e80
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x6ee60
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xb1a40
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144c0c     started at: 0x8b3a0
+IR decoding error at 0x144c0c. You can hook this instruction with a python replacement using project.hook(0x144c0c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x965e8     started at: 0x964c4
+IR decoding error at 0x965e8. You can hook this instruction with a python replacement using project.hook(0x965e8, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x3cb08     started at: 0x3cb00
+no calculate function identified for Iop_Cnt8x16
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144c0c     started at: 0x8b3a0
+IR decoding error at 0x144c0c. You can hook this instruction with a python replacement using project.hook(0x144c0c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x3c4c8
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xebd04
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1207e0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144c6c     started at: 0x8b3a0
+IR decoding error at 0x144c6c. You can hook this instruction with a python replacement using project.hook(0x144c6c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x99200
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x127720
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144c6c     started at: 0x8b3a0
+IR decoding error at 0x144c6c. You can hook this instruction with a python replacement using project.hook(0x144c6c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x113e0c
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x361b0     started at: 0x361a0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144e7c     started at: 0x7f440
+IR decoding error at 0x144e7c. You can hook this instruction with a python replacement using project.hook(0x144e7c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x13dc40
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x3cb28     started at: 0x3cb20
+no calculate function identified for Iop_Cnt8x16
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11b6c0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x40220
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x1242a0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144c0c     started at: 0x8b3a0
+IR decoding error at 0x144c0c. You can hook this instruction with a python replacement using project.hook(0x144c0c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144c6c     started at: 0x8b3a0
+IR decoding error at 0x144c6c. You can hook this instruction with a python replacement using project.hook(0x144c6c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x12e2a0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x518c0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x42980
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x13f9a0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x133a40
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x8b300
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x142e00
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x48030
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xb3650
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x9b568
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x1303a4
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9dee0     started at: 0x48da0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144d5c     started at: 0x8c800
+IR decoding error at 0x144d5c. You can hook this instruction with a python replacement using project.hook(0x144d5c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xbdf80
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11cba0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ddd8     started at: 0x133ec4
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x126468
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa0e1c     started at: 0x99e80
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144d5c     started at: 0x8c800
+IR decoding error at 0x144d5c. You can hook this instruction with a python replacement using project.hook(0x144d5c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x114820
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x128890
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x129020
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x1284a0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x114820
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x114820
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x114820
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe8f60
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x121a40
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x113ca0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x13f440
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x127240
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0xfaee0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x13d990
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x120a60
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xfb680
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x116ce0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x13f440
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1295e0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x977cc
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x3b780
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1220ec
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x4b580
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x127de0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bdc     started at: 0x8e700
+IR decoding error at 0x144bdc. You can hook this instruction with a python replacement using project.hook(0x144bdc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x114ec0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bdc     started at: 0x8e700
+IR decoding error at 0x144bdc. You can hook this instruction with a python replacement using project.hook(0x144bdc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x7e840
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x125600
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x80c04     started at: 0x80be0
+no calculate function identified for Iop_SliceV128
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11dd84
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x80c04     started at: 0x80be0
+no calculate function identified for Iop_SliceV128
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11f38c
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe97b0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe8f20
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x38ba0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xebfc0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bdc     started at: 0x98ae0
+IR decoding error at 0x144bdc. You can hook this instruction with a python replacement using project.hook(0x144bdc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144d5c     started at: 0x8c7a0
+IR decoding error at 0x144d5c. You can hook this instruction with a python replacement using project.hook(0x144d5c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x114d00
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x78920
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144d8c     started at: 0x8a840
+IR decoding error at 0x144d8c. You can hook this instruction with a python replacement using project.hook(0x144d8c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x48030
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x116d8c
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x114dac
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x127a00
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1233ac
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x9e780
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x44f20
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe8160
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xeb1e0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xf3140
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144d8c     started at: 0x8a840
+IR decoding error at 0x144d8c. You can hook this instruction with a python replacement using project.hook(0x144d8c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xc4ecc
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9dee0     started at: 0x9dec0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x226c0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xebe20
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x133828
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x70900
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11e660
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1255c0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1288ac
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xebc68
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x106244
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x114b60
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x4b9c0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x4b580
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xbe020
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x1070e0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1276e8
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x13378c
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x38100
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x3cc2c     started at: 0x3cc20
+no calculate function identified for Iop_Cnt8x16
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11faa0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x12e260
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe8ec0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bdc     started at: 0x8d904
+IR decoding error at 0x144bdc. You can hook this instruction with a python replacement using project.hook(0x144bdc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x1367ac
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0xfba40
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xb1a00
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xd7860
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x34ce0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x113f20
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x965e8     started at: 0x964c4
+IR decoding error at 0x965e8. You can hook this instruction with a python replacement using project.hook(0x965e8, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bdc     started at: 0x8d904
+IR decoding error at 0x144bdc. You can hook this instruction with a python replacement using project.hook(0x144bdc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x35df4     started at: 0x35de0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11cd0c
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x706b0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x3c600
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9aae4     started at: 0x9aac0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1208a0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x40200
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xbdc00
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1295c0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe95ec
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11e0c4
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144dec     started at: 0x8a320
+IR decoding error at 0x144dec. You can hook this instruction with a python replacement using project.hook(0x144dec, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1175e0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144dec     started at: 0x8b5c0
+IR decoding error at 0x144dec. You can hook this instruction with a python replacement using project.hook(0x144dec, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x7e544
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144dec     started at: 0x8a320
+IR decoding error at 0x144dec. You can hook this instruction with a python replacement using project.hook(0x144dec, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x38b88
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x123240
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x34fc0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe11c0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1251e0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x514a0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x12e240
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xb22a0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1215e0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x977cc
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ddd8     started at: 0x9aee0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x9b9c0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xebee0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xb22a0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x992e0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x97a80
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe8f20
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x116c20
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x12644c
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x9da60
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x518c0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0xfb980
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xb1a60
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xc2b20
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xe11e0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xbd920
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x48030
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x129220
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x45680
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11cc60
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x1062e0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x80c70
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x3b780
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ddd8     started at: 0xfb600
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xf3c20
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ddd8     started at: 0x99940
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x80c70
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11dba0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x133ca8
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144dec     started at: 0x8b5c0
+IR decoding error at 0x144dec. You can hook this instruction with a python replacement using project.hook(0x144dec, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x9b568
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xd6664
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1251cc
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0xf94c0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x137920
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x137920
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x12244c
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9dee0     started at: 0x9dec0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x38940
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1222e0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x8b300
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144dec     started at: 0x8b5c0
+IR decoding error at 0x144dec. You can hook this instruction with a python replacement using project.hook(0x144dec, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xeb120
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x8b300
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x123160
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1255e0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x122a60
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x2198c
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0xb4e20
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144dec     started at: 0x8ada0
+IR decoding error at 0x144dec. You can hook this instruction with a python replacement using project.hook(0x144dec, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x3cb48     started at: 0x3cb40
+no calculate function identified for Iop_Cnt8x16
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x51a80
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x4b7c0
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144d5c     started at: 0x8c7a0
+IR decoding error at 0x144d5c. You can hook this instruction with a python replacement using project.hook(0x144d5c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x97a80
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144e4c     started at: 0x83ae0
+IR decoding error at 0x144e4c. You can hook this instruction with a python replacement using project.hook(0x144e4c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x3ccb0     started at: 0x3cca0
+no calculate function identified for Iop_Cnt8x16
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0xb1940
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x11f140
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144c3c     started at: 0x8cfa0
+IR decoding error at 0x144c3c. You can hook this instruction with a python replacement using project.hook(0x144c3c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144cfc     started at: 0x8c860
+IR decoding error at 0x144cfc. You can hook this instruction with a python replacement using project.hook(0x144cfc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144c3c     started at: 0x8cfa0
+IR decoding error at 0x144c3c. You can hook this instruction with a python replacement using project.hook(0x144c3c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144cfc     started at: 0x8c860
+IR decoding error at 0x144cfc. You can hook this instruction with a python replacement using project.hook(0x144cfc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144bac     started at: 0x1338c8
+IR decoding error at 0x144bac. You can hook this instruction with a python replacement using project.hook(0x144bac, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9b9e4     started at: 0x3c430
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x990c0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144c9c     started at: 0x82700
+IR decoding error at 0x144c9c. You can hook this instruction with a python replacement using project.hook(0x144c9c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x144c9c     started at: 0x82700
+IR decoding error at 0x144c9c. You can hook this instruction with a python replacement using project.hook(0x144c9c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x9ba9c     started at: 0x9dfe0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x14490c
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xa2f94     started at: 0x70900
+Operation not implemented
+
