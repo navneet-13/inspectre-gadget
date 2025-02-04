@@ -1,0 +1,20 @@
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xbb8c     started at: 0x9d60
+IR decoding error at 0xbb8c. You can hook this instruction with a python replacement using project.hook(0xbb8c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xbb8c     started at: 0xb280
+IR decoding error at 0xbb8c. You can hook this instruction with a python replacement using project.hook(0xbb8c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xbb8c     started at: 0xb9d0
+IR decoding error at 0xbb8c. You can hook this instruction with a python replacement using project.hook(0xbb8c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xbb8c     started at: 0xae88
+IR decoding error at 0xbb8c. You can hook this instruction with a python replacement using project.hook(0xbb8c, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0xbb8c     started at: 0xa8a0
+IR decoding error at 0xbb8c. You can hook this instruction with a python replacement using project.hook(0xbb8c, your_function, length=length_of_instruction).
+

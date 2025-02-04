@@ -1,0 +1,8 @@
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x15668     started at: 0x15740
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x130ac     started at: 0x1a300
+Operation not implemented
+
