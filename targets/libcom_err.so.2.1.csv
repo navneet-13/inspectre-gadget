@@ -1,0 +1,17 @@
+0000000000001a34,add_to_error_table
+0000000000001540,set_com_err_gettext
+0000000000001520,et_list_unlock
+0000000000001570,error_table_name
+0000000000001c04,com_err_va
+0000000000001974,add_error_table
+0000000000001d84,com_right
+0000000000001a50,remove_error_table
+0000000000001b74,init_error_table
+0000000000001504,et_list_lock
+0000000000001f10,free_error_table
+0000000000001d10,set_com_err_hook
+0000000000001de4,com_right_r
+0000000000001d50,reset_com_err_hook
+00000000000015e4,error_message
+0000000000001c40,com_err
+0000000000001e74,initialize_error_table_r
