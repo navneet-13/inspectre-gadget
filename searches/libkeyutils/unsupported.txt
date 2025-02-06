@@ -1,0 +1,32 @@
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x2018     started at: 0x1ff0
+no calculate function identified for Iop_NarrowUn64to32x2
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x20a8     started at: 0x2080
+no calculate function identified for Iop_NarrowUn64to32x2
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x21c8     started at: 0x21a0
+no calculate function identified for Iop_NarrowUn64to32x2
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x2138     started at: 0x2110
+no calculate function identified for Iop_NarrowUn64to32x2
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x20a8     started at: 0x2080
+no calculate function identified for Iop_NarrowUn64to32x2
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x2018     started at: 0x1ff0
+no calculate function identified for Iop_NarrowUn64to32x2
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x2138     started at: 0x2110
+no calculate function identified for Iop_NarrowUn64to32x2
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x21c8     started at: 0x21a0
+no calculate function identified for Iop_NarrowUn64to32x2
+
