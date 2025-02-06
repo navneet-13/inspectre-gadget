@@ -1,0 +1,32 @@
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x69b0     started at: 0x6ce0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x69b0     started at: 0x6aa0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x69b0     started at: 0x6bc0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x1e9c     started at: 0x2420
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x1e9c     started at: 0x1de0
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x69b0     started at: 0x6920
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x69b0     started at: 0x6920
+Operation not implemented
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x69b0     started at: 0x6920
+Operation not implemented
+
