@@ -1,0 +1,8 @@
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x33aabc     started at: 0x26db04
+IR decoding error at 0x33aabc. You can hook this instruction with a python replacement using project.hook(0x33aabc, your_function, length=length_of_instruction).
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x33aabc     started at: 0x26de8c
+IR decoding error at 0x33aabc. You can hook this instruction with a python replacement using project.hook(0x33aabc, your_function, length=length_of_instruction).
+
