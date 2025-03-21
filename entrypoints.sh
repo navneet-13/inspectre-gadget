@@ -16,7 +16,7 @@ fi
 
 # Use readelf to extract symbols and filter for functions (FUNC)
 readelf -Ws "$BINARY" | awk '
-    $4 == "FUNC" && $7 != "UND" {  # Only FUNC symbols, ignore undefined (UND) ones
+    $7 != "UND" {  # Only FUNC symbols, ignore undefined (UND) ones
         printf "%s,%s\n", $2, $8 # Output in address,name format
     }
 '

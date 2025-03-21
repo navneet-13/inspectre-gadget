@@ -1,0 +1,8 @@
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x7bb7d50     started at: 0x7bb7d1c
+no calculate function identified for Iop_Cnt8x16
+
+---------------- [ SCANNER UNSUPPORTED INSTRUCTION ] ----------------
+instruction addr: 0x7bb7d50     started at: 0x7bb7d1c
+no calculate function identified for Iop_Cnt8x16
+
